@@ -1,0 +1,18 @@
+===DOC ROOT Folders===
+/home/abetcarauc1/public_html/
+########################################################
+===Links List===
+########################################################
+===ALLOW List===
+########################################################
+===ImunifyAV Check List===
+########################################################
+===Maldet Check List===
+########################################################
+===GREP check List===
+./wp-content/plugins/wp-file-manager/lib/codemirror/mode/asn.1/asn.1.js
+./wp-content/plugins/modeltheme-framework/inc/demo-importer-v2/extensions/wbc_importer/demo-data/Freelancer/content.xml
+./wp-includes/js/underscore.js
+########################################################
+===Image Check List===
+########################################################

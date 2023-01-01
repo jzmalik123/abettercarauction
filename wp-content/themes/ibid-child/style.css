@@ -1,0 +1,109 @@
+/*
+Theme Name: iBid Child
+Theme URI: https://ibid.modeltheme.com/
+Template: ibid
+Author: ModelTheme
+Author URI: http://modeltheme.com/
+Description: Multi Vendor Auctions WooCommerce Theme
+Version: 1.0
+Text Domain: ibid
+Tags: custom-header, custom-menu, featured-images, post-formats, sticky-post
+*/
+/* Theme customization starts here
+------------------------------------------------------- */
+/*sticky menu on mobile*/
+@media only screen and (max-width: 1023px){
+	div#ibid-main-head {
+    	position: fixed;
+	}
+	.navbar-header .logo img {
+    	max-width: 100% !important;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-collapse.collapse.in {
+		display: block !important;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+}
+	
+@media only screen and (min-width: 1024px){
+	.header-v1 .navbar .first-part {
+        display: none;
+    }
+}
+
+/* remove top header */
+
+.top-header {
+    display: none;
+}
+
+/* remove cart icon from header */
+
+.menu-products .shop_cart {
+    display: none;
+}
+
+a.cart-contents {
+    display: none;
+}
+
+/* hide wishlist on woocomm products */
+
+.woocommerce ul.products li.product .overlay-components .add_to_wishlist.button {
+    display: none;
+}
+
+.woocommerce.single-product .wishlist-container a.button[data-tooltip] {
+    display: none;
+}
+
+@media screen and (min-width: 200px) and (max-width: 349px){
+    .navbar-header .logo img {
+        max-width: 100px;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 499px){
+    .navbar-header .logo img {
+        max-width: 175px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 639px){
+    .navbar-header .logo img {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width: 767px){
+    .navbar-header .logo img {
+        max-width: 400px;
+    }
+}
+
+/* fixing contact form for tablet/mobile */
+
+@media only screen and (max-width: 1023px){
+    .page-id-1362 .elementor-1362 .elementor-element.elementor-element-3281f21 > .elementor-widget-container {
+        padding: 0px 1px 0px 15px;
+        margin-left: -114px;
+    }
+    .page-id-1362 .elementor-element.elementor-element-d981b9a.elementor-widget.elementor-widget-shortcode {
+        margin-left: -120px;
+        width: 323px;
+    }
+	.elementor-1362 .elementor-element.elementor-element-0782b46 > .elementor-element-populated {
+    	top: 329px;
+	}
+	.top-footer.row {
+    	margin-top: 100px;
+	}
+}
