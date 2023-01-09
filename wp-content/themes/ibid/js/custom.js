@@ -88,9 +88,9 @@
             setInterval(scrollBg, scrollSpeed);
         }
 
-        jQuery('#register .show_if_seller input').each(function(){
-            jQuery(this).prop('disabled', true);
-        });
+        // jQuery('#register .show_if_seller input').each(function(){
+        //     jQuery(this).prop('disabled', true);
+        // });
 
         jQuery('#register .user-role input[value="customer"]').click(function() {
             if(jQuery(this).is(':checked')) {
@@ -446,7 +446,7 @@
 //                         });
 //                     }
 //                 });
-				console.log("once")
+				//console.log("once")
                 if (jQuery(window).width() >= 768) {
                     jQuery("#ibid-main-head").sticky({
                         topSpacing:0

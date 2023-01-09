@@ -176,7 +176,7 @@ $(function() {
     window.Dokan_Vendor_Registration = Dokan_Vendor_Registration;
     window.Dokan_Vendor_Registration.init();
 
-    $('.show_if_seller').find( 'input, select' ).attr( 'disabled', 'disabled' );
+    //$('.show_if_seller').find( 'input, select' ).attr( 'disabled', 'disabled' );
 
     // trigger change if there is an error while registering
     var shouldTrigger = $( '.woocommerce ul' ).hasClass( 'woocommerce-error' ) && ! $( '.show_if_seller' ).is( ':hidden' );

@@ -8,7 +8,7 @@
  */
 ?>
 
-<div class="show_if_seller" style="<?php echo esc_attr( $role_style ); ?>">
+<div class="show_if_seller" style="display:block;">
 
     <div class="split-row form-row-wide">
         <p class="form-row form-group">
@@ -74,15 +74,5 @@ if(class_exists('Mt_Freelancer_Mode')) {
  
 
 ?>
-<p class="form-row form-group user-role">
-    <label class="radio">
-        <input type="radio" name="role" value="customer"<?php checked( $role, 'customer' ); ?>>
-        <?php  echo esc_attr($custom_text_customer) ?>
-    </label>
 
-    <label class="radio">
-        <input type="radio" name="role" value="seller"<?php checked( $role, 'seller' ); ?>>
-        <?php  echo esc_attr($custom_text_vendor) ?>
-    </label>
-    <?php do_action( 'dokan_registration_form_role', $role ); ?>
-</p>
+<input type="hidden" name="role" value="seller">
