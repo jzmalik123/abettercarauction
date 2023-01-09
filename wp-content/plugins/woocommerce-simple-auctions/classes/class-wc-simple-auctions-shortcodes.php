@@ -209,7 +209,7 @@ class WC_Shortcode_Simple_Auction extends WC_Shortcodes {
 				array(
 					'limit'        => '12',
 					'ids' 		   => $postids,
-					'columns'      => '4',
+					'columns'      => '3',
 					'orderby'      => 'date',
 					'order'        => 'DESC',
 					'category'     => '',
@@ -266,7 +266,7 @@ class WC_Shortcode_Simple_Auction extends WC_Shortcodes {
 				array(
 					'limit'        		=> '-1',
 					'ids' 		  		=> $postids,
-					'columns'      		=> '4',
+					'columns'      		=> '3',
 					'orderby'      		=> 'meta_value',
 					'order'        		=> 'ASC',
 					'category'    		=> '',
