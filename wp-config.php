@@ -20,16 +20,16 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'abettercarauction' );
+define( 'DB_NAME', 'abetcarauc1_zauccar22' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'abetcarauc1_caauctusr77' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '=mY{XN!Psgd&' );
 
 /** Database hostname */
-define( 'DB_HOST', 'www.local.pakwheels:3306' );
+define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
