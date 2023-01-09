@@ -894,7 +894,7 @@ blockquote::before {
 .header-v7 li.nav-menu-account::before,
 .header-v7 li#nav-menu-login a::before {
     content: "\f2bd";
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     margin-right: 10px;
 }
 .header-v7 .my-account-navbar .ibid-logoin a{
@@ -1130,7 +1130,7 @@ header.header-v8 {
 
 .ibid-top-banner .countdown-section::after {
     content: "\f111";
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     font-size: 5px;
     vertical-align: 3px;
     margin-left: 8px;
@@ -1377,7 +1377,7 @@ input[type="search"].ibid-search-input {
     z-index: -1;
 }
 .ibid-icon-menu{
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     background: #27ae60;
     transition: all 300ms;
     -o-transition: all 300ms;
@@ -1424,7 +1424,7 @@ input[type="search"].ibid-search-input {
     color: #fff;
     z-index: 90;
     font-size: 22px;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -1804,7 +1804,7 @@ body.sixth_header  .shop_cart > a {
     content: '\f291';
     padding-left: 10px;
     font-size: 15px;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     position: relative;
     bottom: 0px;
     font-weight: 100;
@@ -2059,7 +2059,7 @@ footer aside {
     left: 50%;
     color: #f02222;
     content: "\f111";
-    font-family: 'Fontawesome';
+    font-family: 'Font Awesome 5 Free';
     text-shadow: transparent 0px 0px;
     font-size: 6px;
     transform: translateX(-50%);
@@ -2789,14 +2789,14 @@ section .portfolio-shortcode .ibid-item-info .desc {
 }
 .portfolio_thumbnails_slider .owl-buttons .owl-next::before {
     content: "\f105";
-    font-family: 'fontawesome';
+    font-family: 'Font Awesome 5 Free';
     display: block;
     font-size: 20px;
     width: 15px;
 }
 .portfolio_thumbnails_slider .owl-buttons .owl-prev::before {
     content: "\f104";
-    font-family: 'fontawesome';
+    font-family: 'Font Awesome 5 Free';
     display: block;
     font-size: 20px;
     width: 15px;
@@ -3270,7 +3270,7 @@ footer .product-title {
 .footer-top .widget_nav_menu li:before {
     content: "\f101";
     color: #8c8c8c;
-    font-family: 'fontawesome';
+    font-family: 'Font Awesome 5 Free';
     font-weight: bold;
     left: 0;
     margin-right: 6px;
@@ -6840,13 +6840,13 @@ ul.social-shareer li {
 }
 .widget_toggles .panel-heading a.collapsed::after {
     content: "\f067";
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     position: absolute;
     right: 12%;
 }
 .widget_toggles .panel-heading a::after {
     content: "\f068";
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     position: absolute;
     right: 12%;
 }
@@ -7776,7 +7776,7 @@ a.shop_cart:after {
     content: '\f291';
     padding-left: 10px;
     font-size: 20px;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     position: relative;
     bottom: -10px;
     font-weight: 100;
@@ -8803,7 +8803,7 @@ table.my_account_orders tbody tr td.order-actions a.button {
 li.store-name:before {
     content: "\f07a";
     color: #2695FF;
-    font-family: 'fontawesome';
+    font-family: 'Font Awesome 5 Free';
     left: 0;
     padding-right: 8px;
     background: transparent !important;
@@ -8811,7 +8811,7 @@ li.store-name:before {
 li.seller-name:before {
     content: "\f007";
     color: #2695FF;
-    font-family: 'fontawesome';
+    font-family: 'Font Awesome 5 Free';
     left: 0;
     padding-right: 12px;
     background: transparent !important;
@@ -8819,7 +8819,7 @@ li.seller-name:before {
 li.store-address:before {
     content: "\f041";
     color: #2695FF;
-    font-family: 'fontawesome';
+    font-family: 'Font Awesome 5 Free';
     left: 0;
     padding-right: 14px;
     background: transparent !important;
@@ -9904,7 +9904,7 @@ body .tp-bullets.preview1 .bullet {
     content: "\f104";
     line-height: 38px;
     padding: 14px;
-    font-family: 'fontawesome';
+    font-family: 'Font Awesome 5 Free';
     font-size: 25px;
 }
 .tp-rightarrow.default::after {
@@ -9912,7 +9912,7 @@ body .tp-bullets.preview1 .bullet {
     content: "\f105";
     line-height: 28px;
     padding: 16px;
-    font-family: 'fontawesome';
+    font-family: 'Font Awesome 5 Free';
     font-size: 25px;
 }
 .tp-bullets.simplebullets.round .bullet{
@@ -11229,7 +11229,7 @@ form#login .register_button, form#login .submit_button:hover,
     content: '\f0c9';
     padding-right: 10px;
     font-size: 15px;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     position: relative;
     font-weight: 100;
 }
@@ -15148,7 +15148,7 @@ img.mfp-img {
 }
 .listed-subcateg .single-category li.item:before {
     content: "\f105";
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     background: none !important;
     padding-right: 10px;
     font-weight: bold;
@@ -15316,7 +15316,7 @@ img.mfp-img {
     font-size: 22px;
     margin-right: 20px;
     padding: 16px;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     content: "\f00d";
 }
 .modeltheme-modal .wpcf7-checkbox .wpcf7-list-item {
